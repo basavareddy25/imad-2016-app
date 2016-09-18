@@ -18,5 +18,9 @@ body {
 
 .img-medium {
     height: 200px;
+     width:200px;
 }
-
+.img-left {
+    height: 200px;
+    width:200px;
+}
