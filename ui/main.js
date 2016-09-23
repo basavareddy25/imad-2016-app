@@ -3,5 +3,5 @@ var element=document.getElementById('main-text');
 
 element.onclick=function()
 {
-element.style.marginleft='1000px';
+element.style.marginleft='100px';
 };
