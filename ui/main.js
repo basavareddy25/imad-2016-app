@@ -3,5 +3,5 @@ var element=document.getElementById('main-text');
 
 element.onclick=function()
 {
-element.innerHTML="i am the boss";
+element.style.leftmargin="100px";
 };
