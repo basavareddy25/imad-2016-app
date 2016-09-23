@@ -19,6 +19,7 @@ body {
 .img-medium {
     height: 200px;
     width:300px;
+    marginleft=100px;
 }
 .img-left {
     height: 200px;
