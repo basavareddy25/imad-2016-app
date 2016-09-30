@@ -26,9 +26,9 @@ c.onclick= function()
 request.open('GET','http://basavareddy25.imad.hasura-app.io/counter',true);
 request.send('null');
 };
-var nip=document.getElementById("name");
+var nip=document.getElementById('name');
 var val=nip.value;
-var submit=document.getElementById("submit_bt");
+var submit=document.getElementById('submit_bt');
 submit.onclick=function()
 {
     var names=['name1','manee','fhfjfkf'];
@@ -37,6 +37,6 @@ submit.onclick=function()
     {
         list[i]='<li>'+names[i]+'<li>';
     }
-    var ul=document.getElementById("yu");
+    var ul=document.getElementById('yu');
     ul.innerHTML=list;
 };
