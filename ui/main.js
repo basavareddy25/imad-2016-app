@@ -1,9 +1,7 @@
 console.log('Loaded!');
 var element=document.getElementById('main-text');
 var counter=0;
-element.onclick=function()
-{
-element.style.marginLeft="100px";
+
  
 
 var c=document.getElementById('xyz');
@@ -14,5 +12,5 @@ c.onclick= function()
   var c=document.getElementById("xyz");
   spam.innerHTML=counter.toString();  
 };
-};
+
 
