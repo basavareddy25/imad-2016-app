@@ -38,5 +38,5 @@ submit.onclick=function()
         list[i]='<li>'+names[i]+'<li>';
     }
     var ul=document.getElementById("yu");
-    ul.list=list;
+    ul.innerHTML=list;
 };
