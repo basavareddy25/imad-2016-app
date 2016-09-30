@@ -10,5 +10,5 @@ button.onclick=function()
 {
  var spam=document.getElementById('counter');   
  counter=counter+1;
- spam.innerHTML=countertoString();
+ spam.innerHTML=counter.toString();
 };
