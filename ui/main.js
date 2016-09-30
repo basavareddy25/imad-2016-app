@@ -6,7 +6,7 @@ element.onclick=function()
 element.style.marginLeft="100px";
  
 
-
+var c=document.getElementById('xyz');
 c= function()
 {
    var spam=document.getElementById('count');   
