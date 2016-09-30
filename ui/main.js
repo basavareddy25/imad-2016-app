@@ -5,8 +5,8 @@ element.onclick=function()
 {
 element.style.marginLeft="100px";
 };
-var button=document.getElementById('counter');
-button.onclick=function(){
+var vvv=document.getElementById('counter');
+vvvv.onclick=function(){
  var spam=document.getElementById('count');   
  counter=counter+1;
  spam.innerHTML=counter.toString();
