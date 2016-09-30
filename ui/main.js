@@ -8,7 +8,7 @@ element.style.marginLeft="100px";
 var button=document.getElementById('counter');
 button.onclick=function()
 {
- var spam=document.getElementById('counter');   
+ var spam=document.getElementById('span');   
  counter=counter+1;
  spam.innerHTML=counter.toString();
 };
