@@ -18,7 +18,7 @@ c.onclick= function()
         {
         var counter=request.responseText   ;
          spam.innerHTML= counter.toString();
-  var request=new XMLHttpRequest();
+ 
         }
     }
     };
