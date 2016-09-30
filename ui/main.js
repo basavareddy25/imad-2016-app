@@ -1,6 +1,6 @@
 console.log('Loaded!');
 var element=document.getElementById('main-text');
-counter=0;
+var counter=0;
 element.onclick=function()
 {
 element.style.marginLeft="100px";
