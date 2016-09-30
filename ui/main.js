@@ -31,7 +31,7 @@ var val=nip.value;
 var submit=document.getElementById('submit_bt');
 submit.onclick=function()
 {
-    var names=['name1', 'manee' ,'fhfjfkf'];
+    var names=['name1','manee','fhfjfkf'];
     var list="";
     for(var i=0;i<names.length;i++)
     {
