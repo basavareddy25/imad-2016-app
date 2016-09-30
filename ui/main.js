@@ -11,9 +11,9 @@ element.style.marginLeft="100px";
 var c=document.getElementById("xyz");
 
 
-window.onload = function(){c.onclick= function()
+c= function()
 {
    var spam=document.getElementById('count');   
  counter=counter+1;
   spam.innerHTML=counter.toString();  
-};};
+};
