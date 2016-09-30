@@ -11,4 +11,9 @@ element.style.marginLeft="100px";
 var button=document.getElementById('xyz');
 
 
-button.style.marginLeft="100px";
+button.onclick= function()
+{
+   var spam=document.getElementById('count');   
+ counter=counter+1;
+  spam.innerHTML=counter.toString();  
+}
