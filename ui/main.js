@@ -1,6 +1,6 @@
 console.log('Loaded!');
 var element=document.getElementById('main-text');
-
+var counter=0;
 element.onclick=function()
 {
 element.style.marginLeft="100px";
@@ -9,7 +9,7 @@ element.style.marginLeft="100px";
   spam.innerHTML=counter.toString();
 };
 var button=document.getElementById('counter');
-var counter=0;
+
 button.onclick=function(){
  var spam=document.getElementById('count');   
  counter=counter+1;
