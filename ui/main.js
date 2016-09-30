@@ -10,7 +10,8 @@ element.style.marginLeft="100px";
 };
 var button=document.getElementById('counte');
 
-button.onclick=function(){
+button.onclick=function()
+{
  var spam=document.getElementById('count');   
  counter=counter+1;
  spam.innerHTML=counter.toString();
