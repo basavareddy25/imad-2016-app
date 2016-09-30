@@ -10,7 +10,7 @@ c.onclick= function()
    var spam=document.getElementById('count');   
  counter=counter+1;
   var c=document.getElementById("xyz");
-  spam.innerHTML=counter.toString();  
+  spam.innerHTML="i am bosss"; counter.toString();  
 };
 
 
