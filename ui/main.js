@@ -10,9 +10,5 @@ element.style.marginLeft="100px";
 };
 var button=document.getElementById('xyz');
 
-button.onclick= function()
-{
- var spam=document.getElementById('count');   
- counter=counter+1;
- spam.innerHTML=counter.toString();
-};
+
+button.innerHTML=counter.toString();
