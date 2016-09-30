@@ -4,14 +4,14 @@ var counter=0;
 element.onclick=function()
 {
 element.style.marginLeft="100px";
- var spam=document.getElementById('count');   
- counter=counter+1;
-  var c=document.getElementById("xyz");
+ 
 
 
 c= function()
 {
-   
+   var spam=document.getElementById('count');   
+ counter=counter+1;
+  var c=document.getElementById("xyz");
   spam.innerHTML=counter.toString();  
 };
 };
