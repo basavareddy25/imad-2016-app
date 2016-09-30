@@ -23,6 +23,7 @@ c.onclick= function()
     }
     };
 request.open('GET','http://basavareddy25.imad.hasura-app.io/counter',true);
+request.send('null');
 };
 
 
