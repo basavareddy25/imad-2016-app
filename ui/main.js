@@ -16,7 +16,7 @@ c.onclick= function()
     {
         if(request.status==200)
         {
-        var counter=request.responseText   ;
+        var counter=request.responseText ;
         var spam=document.getElementById('count');
          spam.innerHTML= counter.toString();
  
