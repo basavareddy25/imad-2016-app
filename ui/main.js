@@ -8,9 +8,9 @@ element.style.marginLeft="100px";
  counter=counter+1;
   spam.innerHTML=counter.toString();
 };
-var element=document.getElementById('counte');
+var button=document.getElementById('xyz');
 
-element.onclick= function()
+button.onclick= function()
 {
  var spam=document.getElementById('count');   
  counter=counter+1;
