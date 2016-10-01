@@ -21,7 +21,7 @@ var val=nip.value;
 var val=nip.value;
 
 
-    var names=['name1','manee','fhfjfkf'];
+    var names=request.responseText;
     var list="";
     for(var i=0;i<names.length;i++)
     {
