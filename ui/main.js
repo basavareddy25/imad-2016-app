@@ -4,8 +4,8 @@ var element=document.getElementById('main-text');
 
  
 
-var c=document.getElementById('xyz');
-c.onclick= function()
+var submit=document.getElementById('submit_bt');
+submit.onclick=function()
 {
  
   var request=new XMLHttpRequest();
@@ -18,9 +18,8 @@ c.onclick= function()
         {
        var nip=document.getElementById('name');
 var val=nip.value;
-var submit=document.getElementById('submit_bt');
-submit.onclick=function()
-{
+
+
     var names=['name1','manee','fhfjfkf'];
     var list="";
     for(var i=0;i<names.length;i++)
@@ -29,7 +28,6 @@ submit.onclick=function()
     }
     var ul=document.getElementById('yu');
     ul.innerHTML=list;
-};
  
         }
     }
