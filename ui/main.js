@@ -16,17 +16,7 @@ c.onclick= function()
     {
         if(request.status==200)
         {
-        var counter=request.responseText ;
-        var spam=document.getElementById('count');
-         spam.innerHTML= counter.toString();
- 
-        }
-    }
-    };
-request.open('GET','http://basavareddy25.imad.hasura-app.io/counter',true);
-request.send('null');
-};
-var nip=document.getElementById('name');
+       var nip=document.getElementById('name');
 var val=nip.value;
 var submit=document.getElementById('submit_bt');
 submit.onclick=function()
@@ -39,4 +29,11 @@ submit.onclick=function()
     }
     var ul=document.getElementById('yu');
     ul.innerHTML=list;
+};
+ 
+        }
+    }
+    };
+request.open('GET','http://basavareddy25.imad.hasura-app.io/submit?name=val',true);
+request.send('null');
 };
