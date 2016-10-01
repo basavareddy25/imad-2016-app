@@ -34,6 +34,6 @@ submit.onclick=function()
         }
     }
     };
-request.open('GET','http://basavareddy25.imad.hasura-app.io/submit?name=val',true);
+request.open('GET','http://basavareddy25.imad.hasura-app.io/submit?name='+val,true);
 request.send('null');
 };
