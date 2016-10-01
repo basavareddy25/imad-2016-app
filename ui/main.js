@@ -7,7 +7,8 @@ var element=document.getElementById('main-text');
 var submit=document.getElementById('submit_bt');
 submit.onclick=function()
 {
- 
+  var nip=document.getElementById('name');
+var val=nip.value;
   var request=new XMLHttpRequest();
  
   request.onreadystatechange = function(){
