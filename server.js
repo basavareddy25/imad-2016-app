@@ -34,8 +34,8 @@ app.get('/ui/images.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'images.jpg'));
 });
 var names=[];
-app.get('/submit/:name', function (req, res) {
-  var name=req.params.name;
+app.get('/submit', function (req, res) {
+  var name=req.query.name;
   names.push(name);
   res.send(JSON.stringify(names));
 });
